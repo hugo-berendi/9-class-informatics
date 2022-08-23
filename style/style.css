@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+body {
+  font-family: "Nunito", sans-serif;
+  background: #3A435E;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+#wrapper {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.code {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 1.1rem;
+  float: left;
+  color: #818BFF;
+  height: 1.5rem;
+  width: 96%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.ui-copy-code {
+  height: auto;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  color: #818BFF;
+}
+
+.text {
+  font-style: normal;
+  color: #ECE8EF;
+  height: auto;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.codeblock {
+  border: 1px solid #111;
+  border-radius: 1rem;
+  background: #313E50;
+  margin: auto;
+  padding: 0.5rem;
+  width: 90%;
+  height: auto;
+  min-height: 1.5rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.ui-copy-code-btn {
+  float: left;
+  background: none;
+  border: none;
+  padding: 0.2;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.ui-copy-code-btn:hover {
+  cursor: pointer;
+}
+.ui-copy-code-btn:active {
+  border: 1px solid none;
+  border-radius: 0.5rem;
+  background: #1e2631;
+}/*# sourceMappingURL=style.css.map */
