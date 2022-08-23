@@ -4,6 +4,6 @@ function copyText(id) {
     window.getSelection().removeAllRanges();
     window.getSelection().addRange(r);
     document.execCommand('copy');
-    alert('Copied!');
+    window.alert('Copied!');
     window.getSelection().removeAllRanges();
 }
